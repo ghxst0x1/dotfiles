@@ -61,9 +61,9 @@
     },
     "network": {
         "format-wifi": " :{ipaddr}",
-        "format-ethernet": " {ipaddr}",
+        "format-ethernet": " :{ipaddr}",
         "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
