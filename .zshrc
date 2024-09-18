@@ -66,7 +66,7 @@ alias ls='ls --color'
 alias la='ls --color -lah'
 alias ll='ls --color -lh'
 alias el='exa --tree --level 1 --icons --almost-all'
-alias code="/usr/bin/codium-insiders --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --unity-launch"
+alias code="/usr/bin/codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland"
 alias ..='cd ..'
 
 # Shell integrations
