@@ -1,1 +1,3 @@
 .config/nvim/lazy-lock.json
+.config/mpd/log
+.config/mpd/database
