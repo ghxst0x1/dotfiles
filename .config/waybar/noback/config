@@ -6,7 +6,7 @@
     "margin-top": 10,
     "spacing": 1,
 
-    "modules-left": ["custom/power", "hyprland/workspaces"],
+    "modules-left": ["custom/power", "hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
     "modules-right": ["cpu", "memory", "disk", "pulseaudio", "network", "tray"],
 
@@ -28,6 +28,14 @@
             "9": "9",
             "10": "10"
          },
+    },
+    "hyprland/window": {
+      "format": "{class}",
+      "max-length": 20,
+      "rewrite": {
+      "": "<span foreground= '#458588'></span> hyprland",
+      "~": " terminal",
+    }
     },
     "tray": {
         "icon-size": 18,

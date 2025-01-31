@@ -15,7 +15,11 @@ window#waybar {
 }
 
 window#waybar.empty {
-  opacity: 0.3;
+  /* opacity: 0.3; */
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
 }
 
 .modules-left {
