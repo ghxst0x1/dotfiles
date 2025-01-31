@@ -33,8 +33,10 @@ zinit cdreplay -q
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # To initialize oh-my-posh
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+#eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 
+# To initialize starship
+eval "$(starship init zsh)"
 
 # Keybindings
 bindkey -e
